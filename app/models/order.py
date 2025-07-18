@@ -34,4 +34,4 @@ class OrderDataResponse(BaseModel):
 
 class PaginatedOrderResponse(BaseModel):
     data: List[OrderDataResponse]
-    page: dict  # Optional: you can replace this with a structured PageInfo model later
+    page: dict  

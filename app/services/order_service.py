@@ -4,7 +4,7 @@ from bson import ObjectId
 from app.utils.pagination import paginate
 
 async def create_order(order: OrderCreate) -> str:
-    order_dict = order.dict()
+
     total_price = 0.0
     product_details = []
 

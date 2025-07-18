@@ -18,7 +18,7 @@ async def list_products(name: Optional[str], size: Optional[str], limit: int, of
         query["name"] = { "$regex": re.escape(name), "$options": "i" }
 
     if size:
-        query["sizes.size"] = size  # array field filter
+        query["sizes.size"] = size  
 
     cursor = (
         product_collection

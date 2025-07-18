@@ -1,6 +1,4 @@
 from motor.motor_asyncio import AsyncIOMotorClient
-from fastapi import Request
-import os
 
 MONGO_URI = "mongodb://localhost:27017" 
 
