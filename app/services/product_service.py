@@ -1,5 +1,5 @@
 from app.db.mongodb import product_collection
-from app.models.product import ProductCreate, ProductListItem
+from app.models.product import ProductCreate
 from typing import Optional
 from app.utils.pagination import paginate
 
