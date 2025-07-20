@@ -12,8 +12,8 @@ async def root():
     return {
         "message": "Ecommerce backend running",
         "version": "1.0.0",
-        "documentation_url": "http://localhost:8000/docs",
-        "redoc_url": "http://localhost:8000/redoc",
-        "products_url": "http://localhost:8000/products",
-        "orders_url": "http://localhost:8000/orders"
+        "documentation_url": "/docs",
+        "redoc_url": "/redoc",
+        "products_url": "/products",
+        "orders_url": "/orders"
         }
